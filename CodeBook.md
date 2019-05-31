@@ -41,13 +41,12 @@ containing one row for each subject/activity with a mean of the aggregated value
 ### Description of the variables in the dataset file
 
 Data report overview
----------------------------------
-Feature                 | Result
------------------------- --------
-Number of observations        180
 
-Number of variables            68
----------------------------------
+Feature                 | Result
+------------------------|---------
+Number of observations  |  180
+Number of variables     |   68
+
 
 # Codebook summary table
 
