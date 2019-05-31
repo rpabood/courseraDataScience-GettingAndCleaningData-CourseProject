@@ -51,74 +51,74 @@ Number of variables     |   68
 #### Codebook summary table
 
 
-ariable                                          |Class      |# unique values | Missing                   
---------------------------------------------------|-----------|----------------|--------- 
-        **[Subject]**                             |         integer      |       30 | 0.00 %                
-        **[Activity]**                            |         character    |        6 | 0.00 %                
-        **[timeBodyAcceleration-mean()-X]**       |         numeric      |      180 | 0.00 %                
-        **[timeBodyAcceleration-mean()-Y]**       |         numeric      |    	180 | 0.00 %                
-        **[timeBodyAcceleration-mean()-Z]**       |         numeric      |      180 | 0.00 %                
-        **[timeGravityAcceleration-mean()-X]**    |         numeric      |      180 | 0.00 %                
-        **[timeGravityAcceleration-mean()-Y]**    |         numeric      |      180 | 0.00 %                
-        **[timeGravityAcceleration-mean()-Z]**    |         numeric      |      180 | 0.00 %                
-        **[timeBodyAccelerationJerk-mean()-X]**   |         numeric      |      180 | 0.00 %                
-        **[timeBodyAccelerationJerk-mean()-Y]**   |         numeric      |      180 | 0.00 %                
-        **[timeBodyAccelerationJerk-mean()-Z]**   |         numeric      |      180 | 0.00 %                
-        **[timeBodyGyro-mean()-X]**               |         numeric      |      180 | 0.00 %                
-        **[timeBodyGyro-mean()-Y]**               |         numeric      |      180 | 0.00 %                
-        **[timeBodyGyro-mean()-Z]**               |         numeric      |      180 | 0.00 %                
-        **[timeBodyGyroJerk-mean()-X]**           |         numeric      |      180 | 0.00 %                
-        **[timeBodyGyroJerk-mean()-Y]**           |         numeric      |      180 | 0.00 %                
-        **[timeBodyGyroJerk-mean()-Z]**           |         numeric      |      180 | 0.00 %                
-        **[timeBodyAccelerationMag-mean()]**      |         numeric      |      180 | 0.00 %                
-        **[timeGravityAccelerationMag-mean()]**   |         numeric      |      180 | 0.00 %                
-        **[timeBodyAccelerationJerkMag-mean()]**  |         numeric      |      180 | 0.00 %                
-        **[timeBodyGyroMag-mean()]**              |         numeric      |      180 | 0.00 %                
-        **[timeBodyGyroJerkMag-mean()]**          |         numeric      |      180 | 0.00 %                
-        **[fequencyBodyAcceleration-mean()-X]**   |         numeric      |      180 | 0.00 %                
-        **[fequencyBodyAcceleration-mean()-Y]**   |         numeric      |      180 | 0.00 %                
-        **[fequencyBodyAcceleration-mean()-Z]**   |         numeric      |      180 | 0.00 %                
-        **[fequencyBodyAccelerationJerk-mean()-X]**|        numeric      |      180 | 0.00 %                
-        **[fequencyBodyAccelerationJerk-mean()-Y]**|        numeric      |      180 | 0.00 %                
-        **[fequencyBodyAccelerationJerk-mean()-Z]**|        numeric      |      180 | 0.00 %                
-        **[fequencyBodyGyro-mean()-X]**            |        numeric      |      180 | 0.00 %                
-        **[fequencyBodyGyro-mean()-Y]**            |        numeric      |      180 | 0.00 %                
-        **[fequencyBodyGyro-mean()-Z]**            |        numeric      |      180 | 0.00 %                
-        **[fequencyBodyAccelerationMag-mean()]**   |        numeric      |      180 | 0.00 %                
-        **[fequencyBodyBodyAccelerationJerkMag-mean()]**|   numeric      |      180 | 0.00 %                
-        **[fequencyBodyBodyGyroMag-mean()]**       |        numeric      |      180 | 0.00 %                
-        **[fequencyBodyBodyGyroJerkMag-mean()]**   |        numeric      |      180 | 0.00 %                
-        **[timeBodyAcceleration-std()-X]**         |        numeric      |      180 | 0.00 %                
-        **[timeBodyAcceleration-std()-Y]**         |        numeric      |      180 | 0.00 %                
-        **[timeBodyAcceleration-std()-Z]**         |        numeric      |      180 | 0.00 %                
-        **[timeGravityAcceleration-std()-X]**      |        numeric      |      180 | 0.00 %                
-        **[timeGravityAcceleration-std()-Y]**      |        numeric      |      180 | 0.00 %                
-        **[timeGravityAcceleration-std()-Z]**      |        numeric      |      180 | 0.00 %                
-        **[timeBodyAccelerationJerk-std()-X]**     |        numeric      |      180 | 0.00 %                
-        **[timeBodyAccelerationJerk-std()-Y]**     |        numeric      |      180 | 0.00 %                
-        **[timeBodyAccelerationJerk-std()-Z]**     |        numeric      |      180 | 0.00 %                
-        **[timeBodyGyro-std()-X]**                 |        numeric      |      180 | 0.00 %                
-        **[timeBodyGyro-std()-Y]**                 |        numeric      |      180 | 0.00 %                
-        **[timeBodyGyro-std()-Z]**                 |        numeric      |      180 | 0.00 %                
-        **[timeBodyGyroJerk-std()-X]**             |        numeric      |      180 | 0.00 %                
-        **[timeBodyGyroJerk-std()-Y]**             |        numeric      |      180 | 0.00 %                
-        **[timeBodyGyroJerk-std()-Z]**             |        numeric      |      180 | 0.00 %                
-        **[timeBodyAccelerationMag-std()]**        |        numeric      |      180 | 0.00 %                
-        **[timeGravityAccelerationMag-std()]**     |        numeric      |      180 | 0.00 %                
-        **[timeBodyAccelerationJerkMag-std()]**    |        numeric      |      180 | 0.00 %                
-        **[timeBodyGyroMag-std()]**                |        numeric      |      180 | 0.00 %                
-        **[timeBodyGyroJerkMag-std()]**            |        numeric      |      180 | 0.00 %                
-        **[fequencyBodyAcceleration-std()-X]**     |        numeric      |      180 | 0.00 %                
-        **[fequencyBodyAcceleration-std()-Y]**     |        numeric      |      180 | 0.00 %                
-        **[fequencyBodyAcceleration-std()-Z]**     |        numeric      |      180 | 0.00 %                
-        **[fequencyBodyAccelerationJerk-std()-X]** |        numeric      |      180 | 0.00 %                
-        **[fequencyBodyAccelerationJerk-std()-Y]** |        numeric      |      180 | 0.00 %                
-        **[fequencyBodyAccelerationJerk-std()-Z]** |        numeric      |      180 | 0.00 %                
-        **[fequencyBodyGyro-std()-X]**             |        numeric      |      180 | 0.00 %                
-        **[fequencyBodyGyro-std()-Y]**             |        numeric      |      180 | 0.00 %                
-        **[fequencyBodyGyro-std()-Z]**             |        numeric      |      180 | 0.00 %                
-        **[fequencyBodyAccelerationMag-std()]**    |        numeric      |      180 | 0.00 %                
-        **[fequencyBodyBodyAccelerationJerkMag-std()]**|    numeric      |      180 | 0.00 %                
-        **[fequencyBodyBodyGyroMag-std()]**        |        numeric      |      180 | 0.00 %                
-        **[fequencyBodyBodyGyroJerkMag-std()]**    |        numeric      |      180 | 0.00 %                
+Variable                                           |Class                 |# unique values | Missing                   
+--------------------------------------------------|----------------------|----------------|--------- 
+Subject                            |         integer      |             30 | 0.00 %                
+Activity                           |         character    |        6 | 0.00 %                
+timeBodyAcceleration-mean()-X      |         numeric      |      180 | 0.00 %                
+timeBodyAcceleration-mean()-Y      |         numeric      |    	180 | 0.00 %                
+timeBodyAcceleration-mean()-Z      |         numeric      |      180 | 0.00 %                
+timeGravityAcceleration-mean()-X   |         numeric      |      180 | 0.00 %                
+timeGravityAcceleration-mean()-Y   |         numeric      |      180 | 0.00 %                
+timeGravityAcceleration-mean()-Z   |         numeric      |      180 | 0.00 %                
+timeBodyAccelerationJerk-mean()-X  |         numeric      |      180 | 0.00 %                
+timeBodyAccelerationJerk-mean()-Y  |         numeric      |      180 | 0.00 %                
+timeBodyAccelerationJerk-mean()-Z  |         numeric      |      180 | 0.00 %                
+timeBodyGyro-mean()-X              |         numeric      |      180 | 0.00 %                
+timeBodyGyro-mean()-Y              |         numeric      |      180 | 0.00 %                
+timeBodyGyro-mean()-Z              |         numeric      |      180 | 0.00 %                
+timeBodyGyroJerk-mean()-X          |         numeric      |      180 | 0.00 %                
+timeBodyGyroJerk-mean()-Y          |         numeric      |      180 | 0.00 %                
+timeBodyGyroJerk-mean()-Z          |         numeric      |      180 | 0.00 %                
+timeBodyAccelerationMag-mean()     |         numeric      |      180 | 0.00 %                
+timeGravityAccelerationMag-mean()  |         numeric      |      180 | 0.00 %                
+timeBodyAccelerationJerkMag-mean() |         numeric      |      180 | 0.00 %                
+timeBodyGyroMag-mean()             |         numeric      |      180 | 0.00 %                
+timeBodyGyroJerkMag-mean()         |         numeric      |      180 | 0.00 %                
+fequencyBodyAcceleration-mean()-X  |         numeric      |      180 | 0.00 %                
+fequencyBodyAcceleration-mean()-Y  |         numeric      |      180 | 0.00 %                
+fequencyBodyAcceleration-mean()-Z  |         numeric      |      180 | 0.00 %                
+fequencyBodyAccelerationJerk-mean()-X |        numeric      |      180 | 0.00 %                
+fequencyBodyAccelerationJerk-mean()-Y |        numeric      |      180 | 0.00 %                
+fequencyBodyAccelerationJerk-mean()-Z |        numeric      |      180 | 0.00 %                
+fequencyBodyGyro-mean()-X           |        numeric      |      180 | 0.00 %                
+fequencyBodyGyro-mean()-Y           |        numeric      |      180 | 0.00 %                
+fequencyBodyGyro-mean()-Z           |        numeric      |      180 | 0.00 %                
+fequencyBodyAccelerationMag-mean()  |        numeric      |      180 | 0.00 %                
+fequencyBodyBodyAccelerationJerkMag-mean() |   numeric      |      180 | 0.00 %                
+fequencyBodyBodyGyroMag-mean()      |        numeric      |      180 | 0.00 %                
+fequencyBodyBodyGyroJerkMag-mean()  |        numeric      |      180 | 0.00 %                
+timeBodyAcceleration-std()-X        |        numeric      |      180 | 0.00 %                
+timeBodyAcceleration-std()-Y        |        numeric      |      180 | 0.00 %                
+timeBodyAcceleration-std()-Z        |        numeric      |      180 | 0.00 %                
+timeGravityAcceleration-std()-X     |        numeric      |      180 | 0.00 %                
+timeGravityAcceleration-std()-Y     |        numeric      |      180 | 0.00 %                
+timeGravityAcceleration-std()-Z     |        numeric      |      180 | 0.00 %                
+timeBodyAccelerationJerk-std()-X    |        numeric      |      180 | 0.00 %                
+timeBodyAccelerationJerk-std()-Y    |        numeric      |      180 | 0.00 %                
+timeBodyAccelerationJerk-std()-Z    |        numeric      |      180 | 0.00 %                
+timeBodyGyro-std()-X                |        numeric      |      180 | 0.00 %                
+timeBodyGyro-std()-Y                |        numeric      |      180 | 0.00 %                
+timeBodyGyro-std()-Z                |        numeric      |      180 | 0.00 %                
+timeBodyGyroJerk-std()-X            |        numeric      |      180 | 0.00 %                
+timeBodyGyroJerk-std()-Y            |        numeric      |      180 | 0.00 %                
+timeBodyGyroJerk-std()-Z            |        numeric      |      180 | 0.00 %                
+timeBodyAccelerationMag-std()       |        numeric      |      180 | 0.00 %                
+timeGravityAccelerationMag-std()    |        numeric      |      180 | 0.00 %                
+timeBodyAccelerationJerkMag-std()   |        numeric      |      180 | 0.00 %                
+timeBodyGyroMag-std()               |        numeric      |      180 | 0.00 %                
+timeBodyGyroJerkMag-std()           |        numeric      |      180 | 0.00 %                
+fequencyBodyAcceleration-std()-X    |        numeric      |      180 | 0.00 %                
+fequencyBodyAcceleration-std()-Y    |        numeric      |      180 | 0.00 %                
+fequencyBodyAcceleration-std()-Z    |        numeric      |      180 | 0.00 %                
+fequencyBodyAccelerationJerk-std()-X |        numeric      |      180 | 0.00 %                
+fequencyBodyAccelerationJerk-std()-Y |        numeric      |      180 | 0.00 %                
+fequencyBodyAccelerationJerk-std()-Z |        numeric      |      180 | 0.00 %                
+fequencyBodyGyro-std()-X            |        numeric      |      180 | 0.00 %                
+fequencyBodyGyro-std()-Y            |        numeric      |      180 | 0.00 %                
+fequencyBodyGyro-std()-Z            |        numeric      |      180 | 0.00 %                
+fequencyBodyAccelerationMag-std()   |        numeric      |      180 | 0.00 %                
+fequencyBodyBodyAccelerationJerkMag-std() |    numeric      |      180 | 0.00 %                
+fequencyBodyBodyGyroMag-std()       |        numeric      |      180 | 0.00 %                
+fequencyBodyBodyGyroJerkMag-std()   |        numeric      |      180 | 0.00 %                
 
