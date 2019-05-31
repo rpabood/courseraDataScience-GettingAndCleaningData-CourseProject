@@ -1,22 +1,21 @@
 
-#title: "Getting and Cleaning Data Course Project"
+# title: Getting and Cleaning Data Course Project
 
 ## Project Description
 Obtain a tidy dataset from data provided. It should include measurements with STD or MEAN, 
 and provide an average for each activity and each subject.
 
-##Study design and data processing
+### Study design and data processing
 
-###Collection of the raw data
 According to the Readme.txt of the data provided:
 
 >The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
 
 >The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain. 
 
-##Creating the tidy datafile
+### Creating the tidy datafile
 
-###Guide to create the tidy data file
+#### Guide to create the tidy data file
 Data was separated into two groups: train and test. Each set of data consisted of 3 files: subject, activity and data.
 There was also a file [activity_labels.txt] with a description for each activityId 
 and another file [features.txt] with the names of al measurements included in the data file.
@@ -39,11 +38,11 @@ of some kind process or function.
 Finally aggregate the dataset by 'Subject' and 'Activity' as to have a wide tidy dataset 
 containing one row for each subject/activity with a mean of the aggregated values.
 
-##Description of the variables in the dataset file
+### Description of the variables in the dataset file
 
-# Data report overview
+Data report overview
 ---------------------------------
-Feature                    Result
+Feature                 | Result
 ------------------------ --------
 Number of observations        180
 
